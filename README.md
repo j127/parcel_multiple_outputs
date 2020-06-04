@@ -23,6 +23,23 @@ Parcel does **not** follow these options in `.babelrc`, but Babel itself does wh
 }
 ```
 
+It also doesn't work with Parcel if I put the config in `package.json` like this (though I'm not certain if this is the correct syntax for `package.json`):
+
+```json
+"babel": {
+    "env": {
+        "development": {
+            "plugins": []
+        },
+        "production": {
+            "plugins": [
+                "transform-remove-console"
+            ]
+        }
+    }
+}
+```
+
 Anyway, the repo is here to look at more closely later.
 
 ---
