@@ -1,4 +1,6 @@
+import { log } from "./logger";
+
 export function whatever(x) {
-    console.log("you passed in", x);
+    log("you passed in", x);
     return 2 ** x;
 }

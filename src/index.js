@@ -1,5 +1,8 @@
 import { whatever } from "./somethingElse";
+import { log } from "./logger";
 
-console.log("this is index.js");
+log("this is index.js");
 
-console.log(whatever(7))
+const result = whatever(7);
+
+log(result)
