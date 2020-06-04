@@ -1,3 +1,1 @@
-import { log } from "./logger";
-
-log("this is other.js");
+console.log("this is other.js");
