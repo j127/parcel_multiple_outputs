@@ -1,4 +1,4 @@
-This is an example of using Parcel bundler with Babel to:
+This is an example of using Parcel bundler to:
 
 - Read from multiple JS files and build to different bundles. (See `package.json`.)
 - Remove `console.log` from the builds using a custom `log` function from the `src/logger.js` file.
