@@ -8,7 +8,7 @@
         "start": "npm run dev"
     },
     "keywords": [],
-    "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
+    "author": "J. Cohen",
     "license": "BSD-3-Clause",
     "devDependencies": {
         "@babel/cli": "^7.10.1",
